@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_add_expense"
+        android:icon="@drawable/ic_add"
+        android:title="Add Expense"/>
+    <item
+        android:id="@+id/nav_manage_categories"
+        android:icon="@drawable/ic_category"
+        android:title="Manage Categories"/>
+    <item
+        android:id="@+id/nav_set_budget"
+        android:icon="@drawable/ic_budget"
+        android:title="Set Budget"/>
+    <item
+        android:id="@+id/nav_view_expenses"
+        android:icon="@drawable/ic_list"
+        android:title="View Expenses"/>
+    <item
+        android:id="@+id/nav_scan_receipt"
+        android:icon="@drawable/ic_scan"
+        android:title="Scan Receipt"/>
+    <item
+        android:id="@+id/nav_view_graph"
+        android:icon="@drawable/ic_graph"
+        android:title="View Graph"/>
+    <item
+        android:id="@+id/nav_generate_report"
+        android:icon="@drawable/ic_report"
+        android:title="Generate Report"/>
+</menu>

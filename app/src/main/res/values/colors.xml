@@ -1,0 +1,113 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Primary Colors (Green) -->
+    <color name="primary">#4CAF50</color>
+    <color name="primaryColor">#4CAF50</color> <!-- For layout references -->
+    <color name="primaryDark">#388E3C</color>
+    <color name="primaryLight">#81C784</color>
+    <color name="onPrimary">#FFFFFF</color>
+    <color name="primaryContainer">#C8E6C9</color>
+    <color name="onPrimaryContainer">#1B5E20</color>
+
+    <!-- Background Colors -->
+    <color name="background">#FAFAFA</color>
+    <color name="backgroundLight">#FFFFFF</color>
+    <color name="white">#FFFFFFFF</color>
+
+    <!-- Surface Colors -->
+    <color name="surface">#FFFFFF</color>
+    <color name="surfaceContainerLowest">#FFFFFF</color>
+    <color name="surfaceVariant">#E8F5E9</color>
+    <color name="onSurface">#212121</color>
+    <color name="onSurfaceVariant">#757575</color>
+
+    <!-- Text Colors -->
+    <color name="text_primary">#212121</color>
+    <color name="text_secondary">#757575</color>
+    <color name="text_tertiary">#BDBDBD</color>
+    <color name="textPrimary">#212121</color>
+    <color name="textSecondary">#757575</color>
+    <color name="textTertiary">#BDBDBD</color>
+
+    <!-- UI Elements -->
+    <color name="cardBorderLight">#E0E0E0</color>
+    <color name="cardStroke">#E0E0E0</color>
+    <color name="divider">#E0E0E0</color>
+    <color name="imagePlaceholder">#EEEEEE</color>
+    <color name="progressBackground">#E0E0E0</color>
+    <color name="progressTrack">#E0E0E0</color>
+    <color name="progressIndicator">#4CAF50</color>
+
+    <color name="colorPrimary">#4CAF50</color>
+    <color name="colorPrimaryDark">#3700B3</color>
+    <!-- Financial Colors -->
+    <color name="expenseRed">#F44336</color>
+    <color name="under_budget">#4CAF50</color>
+    <color name="over_budget">#F44336</color>
+    <color name="on_budget">#2196F3</color>
+
+    <!-- Error Colors -->
+    <color name="error">#B3261E</color>
+    <color name="onError">#FFFFFF</color>
+    <color name="errorContainer">#F9DEDC</color>
+    <color name="onErrorContainer">#410E0B</color>
+
+    <!-- Outline Colors -->
+    <color name="outline">#BDBDBD</color>
+    <color name="outlineVariant">#EEEEEE</color>
+
+    <!-- Special Colors -->
+    <color name="shadow">#000000</color>
+    <color name="scrim">#000000</color>
+    <color name="inverseSurface">#212121</color>
+    <color name="inverseOnSurface">#FFFFFF</color>
+    <color name="inversePrimary">#81C784</color>
+    <color name="expense_red">#F44336</color>  <!-- Red for expense amounts -->
+    <!-- Button Colors -->
+    <color name="button_color">#4CAF50</color>          <!-- Normal state -->
+    <color name="button_color_pressed">#388E3C</color>  <!-- Pressed -->
+    <color name="button_color_disabled">#A5D6A7</color> <!-- Disabled -->
+
+    <!-- Achievement Fragment Colors -->
+    <color name="background_color">#FFFBFE</color>
+    <color name="primary_text_color">#1C1B1F</color>
+    <color name="secondary_text_color">#49454F</color>
+    <color name="tertiary_text_color">#79747E</color>
+    <color name="primary_color">#6750A4</color>
+    <color name="card_stroke_color">#E7E0EC</color>
+    <color name="divider_color">#E7E0EC</color>
+    <color name="progress_track_color">#E7E0EC</color>
+
+
+    <!-- Add these colors if they don't exist -->
+    <color name="success_color">#4CAF50</color>
+    <color name="warning_color">#FF9800</color>
+    <color name="error_color">#F44336</color>
+
+    <color name="chip_background">#CD7F71</color> <!-- Bronze -->
+    <!-- Achievement chip colors -->
+    <color name="chip_common_background">#CD7F32</color> <!-- Bronze -->
+    <color name="chip_epic_background">#C0C0C0</color>  <!-- Silver -->
+    <color name="chip_rare_background">#FFD700</color>  <!-- Gold -->
+
+    <!-- colors.xml -->
+
+    <color name="white_alpha_60">#99FFFFFF</color>
+
+    <color name="achievement_earned_bg">#FFFFFF</color>
+    <color name="achievement_locked_bg">#F5F5F5</color>
+
+
+
+    <color name="on_surface">#FF1B1B1B</color> <!-- Dark color for light theme -->
+    <color name="on_surface_variant">#FF49454F</color> <!-- Medium emphasis variant -->
+
+    <color name="green_500">#4CAF50</color>
+    <color name="progress_track">#E0E0E0</color>
+    <color name="progress_indicator">#4CAF50</color>
+    <color name="gray_200">#EEEEEE</color>
+
+    <!-- Add these missing colors -->
+    <color name="purple_500">#6200EE</color>
+    <color name="colorImagePlaceholder">#EEEEEE</color>
+</resources>
