@@ -134,3 +134,5 @@ The application uses a fragment-based architecture for its main features, provid
    
 YOUTUBE LINK: https://youtube.com/shorts/LefeHzdemBE?feature=share 
 
+AUTHOURS: lWAZI HADEBE
+          THABELO MAVHAGA
