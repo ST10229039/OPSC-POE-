@@ -36,7 +36,8 @@ JLT is a comprehensive personal finance management application designed to help 
 ## Installation
 1. Clone the repository
 2. Open project in Android Studio
-3. Build and run on an emulator or physical device
+3. Build and run on an emulator or physical device (app/build/outputs/apk/debug/app-debug.apk)
+
 
 ## Dependencies
 - AndroidX libraries
@@ -134,5 +135,5 @@ The application uses a fragment-based architecture for its main features, provid
    
 YOUTUBE LINK: https://youtube.com/shorts/LefeHzdemBE?feature=share 
 
-AUTHOURS: lWAZI HADEBE
-          THABELO MAVHAGA
+AUTHOURS:Lwazi Hadebe,
+          Thabelo Mavhaga
