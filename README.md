@@ -56,6 +56,93 @@ JLT is a comprehensive personal finance management application designed to help 
    - Navigate to ReportActivity
    - Select month to view
    - Generate PDF report if needed
+## Database Schema
+
+### Entity Relationships
+The application uses Room Database with the following entities:
+
+1. **User**
+   - Stores user credentials and profile information
+   - Primary key: `id` (auto-generated)
+   - Fields: `username`, `email`, `password`
+
+2. **Category**
+   - Stores expense categories created by users
+   - Primary key: `id` (auto-generated)
+   - Fields: `name`, `user_id` (foreign key)
+
+3. **Expense**
+   - Records all user expenses
+   - Primary key: `id` (auto-generated)
+   - Fields: `amount`, `date`, `description`, `category_id`, `user_id`, `photo_path`
+
+4. **BudgetGoal**
+   - Stores monthly budget targets
+   - Primary key: `id` (auto-generated)
+   - Fields: `min_amount`, `max_amount`, `month`, `year`, `user_id`
+
+5. **Achievement**
+   - Tracks user accomplishments
+   - Primary key: `id` (auto-generated)
+   - Fields: `user_id`, `type`, `title`, `description`, `date_earned`, `icon_resource`
+## Fragment Architecture
+
+The application uses a fragment-based architecture for its main features, providing a modular and flexible UI structure. Each fragment handles a specific feature area while maintaining consistent navigation and user experience.
+
+### Key Fragments
+
+1. **AchievementsFragment**
+   - Displays user achievements in a RecyclerView
+   - Implements navigation drawer functionality
+   - Shows achievement details in dialog boxes
+   - Key Features:
+     - Achievement list with icons and descriptions
+     - Information dialog explaining achievements system
+     - Empty state handling
+
+2. **BudgetFragment**
+   - Manages monthly budget goals
+   - Visualizes budget progress with seek bar
+   - Key Features:
+     - Set min/max budget amounts
+     - Real-time progress tracking
+     - Color-coded status indicators (under/over budget)
+     - Achievement unlocking for budget success
+
+3. **CategoriesFragment**
+   - Manages expense categories
+   - Key Features:
+     - Add/delete categories
+     - Category list with swipe-to-delete
+     - Empty state handling
+     - Floating action button for adding categories
+
+4. **ExpensesFragment**
+   - Displays list of user expenses
+   - Key Features:
+     - Expense list with category information
+     - "Add Expense" button navigation
+     - Observes expense data changes
+
+5. **GraphFragment**
+   - Visualizes expense data
+   - Key Features:
+     - Bar chart for monthly spending
+     - Pie chart for category breakdown
+     - Date range filtering
+     - Quick filter chips (today, week, month, year)
+   
+   Future Enhancements
+-Add swipe-to-refresh functionality
+
+-Implement more chart types and visualizations
+
+-Add fragment transition animations
+
+-Enhance tablet layouts with multi-pane designs
+
+-Add search functionality to lists
+
      
-YOUTUBE LINK:
+YOUTUBE LINK: https://youtube.com/shorts/LefeHzdemBE?feature=share 
 
