@@ -114,6 +114,11 @@ class ExpenseListActivity : AppCompatActivity(), NavigationView.OnNavigationItem
                     putExtra("open_fragment", "achievements")
                 })
             }
+            R.id.nav_profile -> {
+                val intent = Intent(this, ProfileActivity::class.java)
+                startActivity(intent)
+
+            }
             R.id.nav_report -> {
                 startActivity(Intent(this, ReportActivity::class.java))
             }

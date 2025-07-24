@@ -82,4 +82,7 @@
     <string name="login">Login</string>
     <string name="dont_have_account">Don\'t have an account?</string>
     <string name="register">Register</string>
+
+    <string name="profile_title">Profile</string>
+    <string name="logout_button">Logout</string>
 </resources>

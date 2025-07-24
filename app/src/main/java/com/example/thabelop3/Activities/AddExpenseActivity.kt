@@ -287,6 +287,11 @@ class AddExpenseActivity : AppCompatActivity(), NavigationView.OnNavigationItemS
                 startActivity(Intent(this, ReportActivity::class.java))
                 finish()
             }
+            R.id.nav_profile -> {
+                val intent = Intent(this, ProfileActivity::class.java)
+                startActivity(intent)
+
+            }
             R.id.nav_logout -> {
                 getSharedPreferences("user_prefs", MODE_PRIVATE).edit().clear().apply()
                 startActivity(Intent(this, LoginActivity::class.java))

@@ -17,6 +17,7 @@ import com.example.thabelop3.Activities.AddExpenseActivity
 import com.example.thabelop3.Activities.ExpenseListActivity
 import com.example.thabelop3.Activities.HomeActivity
 import com.example.thabelop3.Activities.LoginActivity
+import com.example.thabelop3.Activities.ProfileActivity
 import com.example.thabelop3.Activities.ReportActivity
 import com.example.thabelop3.Adapter.AchievementAdapter
 import com.example.thabelop3.MainActivity
@@ -119,6 +120,9 @@ class AchievementsFragment : Fragment(), NavigationView.OnNavigationItemSelected
             }
             R.id.nav_report -> {
                 startActivity(Intent(requireContext(), ReportActivity::class.java))
+            }
+            R.id.nav_profile -> {
+                startActivity(Intent(requireContext(), ProfileActivity::class.java))
             }
         }
         drawerLayout.closeDrawer(GravityCompat.START)

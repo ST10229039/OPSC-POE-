@@ -11,6 +11,7 @@ import androidx.navigation.ui.navigateUp
 import com.example.thabelop3.Activities.AddExpenseActivity
 import com.example.thabelop3.Activities.ExpenseListActivity
 import com.example.thabelop3.Activities.LoginActivity
+import com.example.thabelop3.Activities.ProfileActivity
 import com.example.thabelop3.Activities.ReportActivity
 import com.example.thabelop3.UI.AchievementsFragment
 import com.example.thabelop3.UI.BudgetFragment
@@ -137,7 +138,11 @@ class MainActivity : AppCompatActivity() {
                     startActivity(intent)
 
                 }
+                R.id.nav_profile -> {
+                    val intent = Intent(this, ProfileActivity::class.java)
+                    startActivity(intent)
 
+                }
             }
             drawerLayout.closeDrawer(GravityCompat.START)
             true

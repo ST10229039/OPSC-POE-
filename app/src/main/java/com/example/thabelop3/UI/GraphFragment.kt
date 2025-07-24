@@ -16,6 +16,7 @@ import com.example.thabelop3.Activities.AddExpenseActivity
 import com.example.thabelop3.Activities.ExpenseListActivity
 import com.example.thabelop3.Activities.HomeActivity
 import com.example.thabelop3.Activities.LoginActivity
+import com.example.thabelop3.Activities.ProfileActivity
 import com.example.thabelop3.Activities.ReportActivity
 import com.example.thabelop3.MainActivity
 import com.example.thabelop3.Models.BudgetGoalViewModel
@@ -115,6 +116,9 @@ class GraphFragment : Fragment() {
                     requireActivity().getSharedPreferences("user_prefs", Context.MODE_PRIVATE).edit().clear().apply()
                     startActivity(Intent(requireContext(), LoginActivity::class.java))
                     requireActivity().finish()
+                }
+                R.id.nav_profile -> {
+                    startActivity(Intent(requireContext(), ProfileActivity::class.java))
                 }
             }
             binding.drawerLayout.closeDrawer(GravityCompat.START)

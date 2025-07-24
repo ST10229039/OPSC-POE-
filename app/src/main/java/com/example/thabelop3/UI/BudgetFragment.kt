@@ -20,6 +20,7 @@ import com.example.thabelop3.Activities.AddExpenseActivity
 import com.example.thabelop3.Activities.ExpenseListActivity
 import com.example.thabelop3.Activities.HomeActivity
 import com.example.thabelop3.Activities.LoginActivity
+import com.example.thabelop3.Activities.ProfileActivity
 import com.example.thabelop3.Activities.ReportActivity
 import com.example.thabelop3.MainActivity
 import com.example.thabelop3.Models.AchievementViewModel
@@ -128,7 +129,9 @@ class BudgetFragment : Fragment() {
                 R.id.nav_report -> {
                     startActivity(Intent(requireContext(), ReportActivity::class.java))
                 }
-
+                R.id.nav_profile -> {
+                    startActivity(Intent(requireContext(), ProfileActivity::class.java))
+                }
             }
             true
         }
