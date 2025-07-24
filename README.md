@@ -132,13 +132,5 @@ The application uses a fragment-based architecture for its main features, provid
      - Date range filtering
      - Quick filter chips (today, week, month, year)
    
-6.Future Enhancements
--Add swipe-to-refresh functionality
--Implement more chart types and visualizations
--Add fragment transition animations
--Enhance tablet layouts with multi-pane designs
--Add search functionality to lists
-
-     
 YOUTUBE LINK: https://youtube.com/shorts/LefeHzdemBE?feature=share 
 
