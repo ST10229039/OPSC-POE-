@@ -1,69 +1,61 @@
-📌 Project Overview
-This Android application is a personal expense tracker developed for PROG5121 as part of a school project. It allows users to:
+# JLT - Personal BudgetTracker App
 
-📊 Track expenses with categories
+## Overview
+JLT is a comprehensive personal finance management application designed to help users track expenses, manage budgets, and achieve financial goals. The app provides features for expense recording, category management, budget tracking, financial reporting, and achievement tracking.
 
-📅 Log expenses with dates and photos
+## Features
 
-🏆 View achievement milestones
+### Core Functionality
+- **User Authentication**: Secure login and registration system
+- **Expense Tracking**: Record and categorize expenses with optional photo receipts
+- **Budget Management**: Set monthly budget goals and track progress
+- **Financial Reports**: Generate monthly reports with expense summaries
+- **Achievements**: Earn badges for financial milestones
 
-🗂️ Manage custom categories
+### Key Activities
+- **HomeActivity**: Dashboard with financial overview and recent transactions
+- **AddExpenseActivity**: Form for adding new expenses with category selection
+- **ExpenseListActivity**: View and manage all recorded expenses
+- **ReportActivity**: Generate and view monthly financial reports
+- **ProfileActivity**: User profile management and logout functionality
 
-Built with Kotlin, Room Database, and RecyclerView, it demonstrates modern Android development practices.
+## Technical Implementation
 
-✨ Key Features
-1. Expense Management
-Add expenses with descriptions, amounts, dates, and optional photos.
+### Architecture
+- MVVM (Model-View-ViewModel) pattern
+- Room Database for local data persistence
+- SharedPreferences for user session management
+- Navigation Drawer for app-wide navigation
 
-View expenses in a scrollable list with Glide-powered image loading.
+### Key Components
+- **ViewModels**: Manage UI-related data and business logic
+- **Repositories**: Handle data operations between ViewModels and database
+- **Adapters**: For RecyclerView implementations
+- **PDF Generation**: For financial report export
 
-Filter expenses by category.
+## Installation
+1. Clone the repository
+2. Open project in Android Studio
+3. Build and run on an emulator or physical device
 
-2. Category System
-Create, view, and delete custom categories.
+## Dependencies
+- AndroidX libraries
+- Room Persistence Library
+- Material Design Components
+- ViewModel and LiveData
 
-Expenses are linked to categories for better organization.
-
-3. Achievements
-Unlock visual badges for financial milestones.
-
-Track progress with earned/locked states (UI reflects completion).
-
-4. Modern Android Architecture
-Room Database for local storage.
-
-RecyclerView with DiffUtil for efficient updates.
-
-MVVM pattern (if applicable).
-
-🛠️ Technologies Used
-Kotlin
-
-Android Jetpack Components:
-
-Room Database (SQLite)
-
-RecyclerView + ListAdapter
-
-ViewBinding
-
-Glide (Image loading)
-
-Material Design Components
-
-🚀 Installation & Setup
-Clone the repository:
-
-sh
-git clone https://github.com/ST10229039/ThabeloP3.git
-Open in Android Studio:
-
-Import the project as a Gradle build.
-
-Run the app:
-
-Use an emulator or physical device (API 24+ recommended).
-
-📸 Screenshots (Optional)
-(Add screenshots of your app’s UI here if available.)
+## Usage Instructions
+1. **Registration**: Create an account via RegisterActivity
+2. **Login**: Authenticate using LoginActivity
+3. **Navigation**: Use the drawer menu to access all features
+4. **Adding Expenses**: 
+   - Navigate to AddExpenseActivity
+   - Fill in expense details
+   - Optionally attach a photo receipt
+5. **Viewing Reports**:
+   - Navigate to ReportActivity
+   - Select month to view
+   - Generate PDF report if needed
+     
+YOUTUBE LINK:
 
